@@ -1,0 +1,167 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.header {
+    color: #F9FAF8;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 15%;
+    align-items: center;
+}
+
+.header a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.head-links {
+    display: flex; 
+    gap: 16px;
+}
+
+.logo {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+} 
+
+
+.hero {
+    color: #F9FAF8;
+    font-weight: 900;
+    display: flex;
+    padding: 48px 15%;
+    gap: 16px;
+}
+
+.left-hero {
+    display: flex;
+    flex-direction: column; 
+    gap: 32px;
+    flex: 1;
+}
+
+.right-hero {
+    flex: 1;
+    display: flex;
+    flex-grow: 1;
+    justify-content: right;
+    align-items: center;
+    min-width: 0;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+}
+
+.hero-text1 {
+    font-size: 48px;
+}
+
+.hero-text2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-in button {
+    background-color: #3882F6;
+    border: 0px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.info-title {
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+}
+
+img {
+    max-width: 200px;
+    width: 100%;
+    border-radius: 20px;
+    aspect-ratio: 1/1;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.quote-name {
+    text-align: right;
+}
+
+.action {
+    background-color: #3882F6;
+    display: flex;
+    padding: 32px;
+}
+
+.left-action {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.right-action {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.sign-up {
+    background-color: #f3f3f3;
+    border: 0px;
+    padding: 16px 32px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.footer {
+    color: #F9FAF8;
+    text-align: center;
+    font-size: 10px;
+    padding: 16px;
+}
+
+
